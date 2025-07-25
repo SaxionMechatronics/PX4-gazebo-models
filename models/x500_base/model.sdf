@@ -6,7 +6,7 @@
     <static>false</static>
     <link name="base_link">
       <inertial>
-        <mass>2.0</mass>
+        <mass>1.51569230769</mass>
         <inertia>
           <ixx>0.02166666666666667</ixx>
           <ixy>0</ixy>
@@ -28,7 +28,7 @@
         </geometry>
       </visual>
       <visual name="5010_motor_base_0">
-        <pose>0.174 0.174 .032 0 0 -.45</pose>
+        <pose>0.15202795795 0.15202795795 .032 0 0 -.45</pose>
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
@@ -37,7 +37,7 @@
         </geometry>
       </visual>
       <visual name="5010_motor_base_1">
-        <pose>-0.174 0.174 .032 0 0 -.45</pose>
+        <pose>-0.15202795795 0.15202795795 .032 0 0 -.45</pose>
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
@@ -46,7 +46,7 @@
         </geometry>
       </visual>
       <visual name="5010_motor_base_2">
-        <pose>0.174 -0.174 .032 0 0 -.45</pose>
+        <pose>0.15202795795 -0.15202795795 .032 0 0 -.45</pose>
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
@@ -55,7 +55,7 @@
         </geometry>
       </visual>
       <visual name="5010_motor_base_3">
-        <pose>-0.174 -0.174 .032 0 0 -.45</pose>
+        <pose>-0.15202795795 -0.15202795795 .032 0 0 -.45</pose>
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
@@ -294,7 +294,7 @@
       <gravity>true</gravity>
       <self_collide>false</self_collide>
       <velocity_decay/>
-      <pose>0.174 -0.174 0.06 0 0 0</pose>
+      <pose>0.15202795795 -0.15202795795 0.06 0 0 0</pose>
       <inertial>
           <mass>0.016076923076923075</mass>
           <inertia>
@@ -366,7 +366,7 @@
       <gravity>true</gravity>
       <self_collide>false</self_collide>
       <velocity_decay/>
-      <pose>-0.174 0.174 0.06 0 0 0</pose>
+      <pose>-0.15202795795 0.15202795795 0.06 0 0 0</pose>
       <inertial>
           <mass>0.016076923076923075</mass>
           <inertia>
@@ -438,7 +438,7 @@
       <gravity>true</gravity>
       <self_collide>false</self_collide>
       <velocity_decay/>
-      <pose>0.174 0.174 0.06 0 0 0</pose>
+      <pose>0.15202795795 0.15202795795 0.06 0 0 0</pose>
       <inertial>
           <mass>0.016076923076923075</mass>
           <inertia>
@@ -510,7 +510,7 @@
       <gravity>true</gravity>
       <self_collide>false</self_collide>
       <velocity_decay/>
-      <pose>-0.174 -0.174 0.06 0 0 0</pose>
+      <pose>-0.15202795795 -0.15202795795 0.06 0 0 0</pose>
       <inertial>
           <mass>0.016076923076923075</mass>
           <inertia>
