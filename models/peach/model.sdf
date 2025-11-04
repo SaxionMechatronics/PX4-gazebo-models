@@ -153,7 +153,7 @@
       </sensor>
     </link>
     <link name='rotor_0'>
-      <pose>0 -0.338 0.26 0 0.785398 0</pose>
+      <pose>0 -0.36 0.26 0 0.785398 0</pose>
       <inertial>
         <pose>0 0 0 0 -0 0</pose>
         <mass>0.005</mass>
@@ -217,7 +217,7 @@
       </axis>
     </joint>
     <link name='rotor_1'>
-      <pose>-0 0.338 0.26 0 -0.785398 3.14159</pose>
+      <pose>-0 0.36 0.26 0 -0.785398 3.14159</pose>
       <inertial>
         <pose>0 0 0 0 -0 0</pose>
         <mass>0.005</mass>
@@ -280,7 +280,7 @@
       </axis>
     </joint>
     <link name='rotor_2'>
-      <pose>0.3 0.18 0.26 0 0.785398 2.0944</pose>
+      <pose>0.31176914536 0.18 0.26 0 0.785398 2.0944</pose>
       <inertial>
         <pose>0 0 0 0 -0 0</pose>
         <mass>0.005</mass>
@@ -344,7 +344,7 @@
       </axis>
     </joint>
     <link name='rotor_3'>
-      <pose>-0.3 -0.18 0.26 0 -0.785398 -1.0472</pose>
+      <pose>-0.31176914536 -0.18 0.26 0 -0.785398 -1.0472</pose>
       <inertial>
         <pose>0 0 0 0 -0 0</pose>
         <mass>0.005</mass>
@@ -408,7 +408,7 @@
       </axis>
     </joint>
     <link name='rotor_4'>
-      <pose>0.3 -0.18 0.26 0 -0.785398 1.0472</pose>
+      <pose>0.31176914536 -0.18 0.26 0 -0.785398 1.0472</pose>
       <inertial>
         <pose>0 0 0 0 -0 0</pose>
         <mass>0.005</mass>
@@ -472,7 +472,7 @@
       </axis>
     </joint>
     <link name='rotor_5'>
-      <pose>-0.3 0.18 0.26 0 0.785398 -2.0944</pose>
+      <pose>-0.31176914536 0.18 0.26 0 0.785398 -2.0944</pose>
       <inertial>
         <pose>0 0 0 0 -0 0</pose>
         <mass>0.005</mass>
