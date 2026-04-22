@@ -623,15 +623,18 @@
       <motorType>velocity</motorType>
     </plugin>
 
-    <!-- Publish joint states on /world/<world>/model/sarax_plus/joint_state
-         (gz topic). Bridge to ROS 2 later with:
-           ros2 run ros_gz_bridge parameter_bridge \
-             /world/default/model/sarax_plus/joint_state@sensor_msgs/msg/JointState[gz.msgs.Model
-         Only the manipulator joints are listed so rotor velocities don't
-         swamp the topic. -->
-    <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher">
-      <joint_name>mani_joint_1</joint_name>
-      <joint_name>mani_joint_2</joint_name>
+    <!-- ros2_control via gz_ros2_control. The plugin spawns a controller_manager
+         inside Gazebo that exposes the manipulator's effort/position/velocity
+         interfaces on the ROS 2 bus. Replaces the earlier ApplyJointForce +
+         manipulator JointStatePublisher plugins. -->
+    <plugin filename="gz_ros2_control-system"
+            name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>/home/ayham/wspaces/sarax_ws/install/sarax_bringup/share/sarax_bringup/config/controllers.yaml</parameters>
+      <robot_param>robot_description</robot_param>
+      <robot_param_node>robot_state_publisher</robot_param_node>
+      <ros>
+        <namespace>/</namespace>
+      </ros>
     </plugin>
 
   </model>
